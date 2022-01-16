@@ -1,11 +1,31 @@
 <html>
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <script src="script.js"></script>
     <!-- <link rel="stylesheet" type="text/css" href="styles.css"> -->
   </head>
   <body>
     <h1>Hello there!</h1>
     <a href="/me.html">My other page</a>
+
+    <div
+      id="box"
+      ondrop="drop(event)"
+      ondragover="allowDrop(event)"
+      style="border: 1px solid black; width: 200px; height: 200px"
+    ></div>
+
+    <img
+      src="image"
+      href="/https://swimm.io/img/homepage/dashboard.png"
+      draggable="true"
+      ondragstart="drag(event)"
+      width="150"
+      height="50"
+      alt="Hier
+  sollte ein Bild stehen"
+    />
+
+    <svg width="2000" height="2000"><circle cx="80" r="50" fill="green"</svg>
   </body>
 </html>
